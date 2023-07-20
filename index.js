@@ -8,10 +8,10 @@
 // -Crear un fichero run.js
 // •En el fichero index.js (fichero de librería):
 // -Declarar las funciones de la calculadora por separado (suma, resta, producto, división)
-// function suma(op1,op2){
-//     let result=op1+op2
-//     console.log(result);
-// }
+function suma(op1,op2){
+    let result=op1+op2
+    console.log(result);
+}
 
 function resta(op1,op2){
     let result=op1-op2;
@@ -31,7 +31,7 @@ function cuadrado(op1,op2) {
     console.log(result);
   }
   
-//suma(8,2);
+suma(8,2);
 resta(6,2);
 producto(5,3);
 division(18,9);
